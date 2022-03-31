@@ -5,7 +5,6 @@ package com.ledger.main;
 
 import lombok.Builder;
 import lombok.Getter;
-import lombok.ToString;
 
 /**
  * @author mohsin
@@ -14,7 +13,6 @@ import lombok.ToString;
 
 @Getter
 @Builder
-@ToString
 public class Payment {
 	
 	private Long lumsumAmount;

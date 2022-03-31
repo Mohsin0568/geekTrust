@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
 
 import lombok.Getter;
-import lombok.ToString;
 
 /**
  * @author mohsin
@@ -15,7 +14,6 @@ import lombok.ToString;
  */
 
 @Getter
-@ToString
 public class Loan {
 	
 	private String customerName;
